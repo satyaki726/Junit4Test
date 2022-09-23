@@ -16,7 +16,7 @@ public class StringHelperTest {
 	// AACD -> CD ACD->CD AAACD->ACD
 	@Test
 	public void testTruncateAInFirst2Positions() {
-		assertEquals("CD",helper.truncateAInFirst2Positions("AACD"));
+		assertEquals("qCD",helper.truncateAInFirst2Positions("AACD"));
 	}
 	
 	@Test
