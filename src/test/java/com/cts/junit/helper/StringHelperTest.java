@@ -13,7 +13,7 @@ public class StringHelperTest {
 	
 	StringHelper helper = new StringHelper();
 
-	// AACD -> CD ACD->CD AAACD->ACD //yo
+	// AACD -> CD ACD->CD AAACD->ACD 
 	@Test
 	public void testTruncateAInFirst2Positions() {
 		assertEquals("qCD",helper.truncateAInFirst2Positions("AACD"));
@@ -21,7 +21,7 @@ public class StringHelperTest {
 	
 	@Test
 	public void testTruncateAInFirstPosition() {
-		assertEquals("CD",helper.truncateAInFirst2Positions("ACD"));
+		assertEquals("wCD",helper.truncateAInFirst2Positions("ACD"));
 	}
 	
 	@Test
